@@ -1,7 +1,7 @@
 = MailMan Widget =
 
 Plugin Name: MailMan Widget
-Plugin URI: http://labs.phurix.net/projects/wp-mailman-widget
+Plugin URI: https://github.com/hm2k/MailMan-Widget
 Description: Uses php-mailman to integrate the GNU Mailman mailing list manager with Wordpress.
 Author: James Wade
 Version: 2.0
