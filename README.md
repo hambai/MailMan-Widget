@@ -1,14 +1,14 @@
 MailMan Widget
 ==============
 
-Plugin Name: MailMan Widget
-Plugin URI: https://github.com/hm2k/MailMan-Widget
-Description: Uses php-mailman to integrate the GNU Mailman mailing list manager with Wordpress.
-Author: James Wade
-Version: 2.0
-Author URI: http://labs.phurix.net/
-License: GPL
-Donate: http://tinyurl.com/hm2kpaypal
+* Plugin Name: MailMan Widget
+* Plugin URI: https://github.com/hm2k/MailMan-Widget
+* Description: Uses php-mailman to integrate the GNU Mailman mailing list manager with Wordpress.
+* Author: James Wade
+* Version: 2.0
+* Author URI: http://labs.phurix.net/
+* License: GPL
+* Donate: http://tinyurl.com/hm2kpaypal
 
 Copyright 2011 James Wade
 
