@@ -48,7 +48,7 @@ class NS_Widget_MailMan extends WP_Widget {
 			}
 			$form .= '</select></label></p>';
 			$form .= '<p><label>' . __('Admin password :', 'mailman-widget') . '<input type="password" class="widefat" id="' . $this->get_field_id('adminpw') .'" name="' . $this->get_field_name('adminpw') . '" value="' . $adminpw . '" /></label></p>';
-			$form .= '<p><label>' . __('Sign Up Button Text :', 'mailman-widget') . '<input type="text" class="widefat" id="' . $this->get_field_id('subscribe_text') .'" name="' . $this->get_field_name('subscribe_text') . '" value="' . $subscribe_text . '" /></label></p>';
+			$form .= '<p><label>' . __('Submit Button Text :', 'mailman-widget') . '<input type="text" class="widefat" id="' . $this->get_field_id('subscribe_text') .'" name="' . $this->get_field_name('subscribe_text') . '" value="' . $subscribe_text . '" /></label></p>';
 			$form .= '<h3>' . __('Notifications', 'mailman-widget') . '</h3><p>' . __('Use these fields to customize what your visitors see after they submit the form', 'mailman-widget') . '</p><p><label>' . __('Success :', 'mailman-widget') . '<textarea class="widefat" id="' . $this->get_field_id('success_message') . '" name="' . $this->get_field_name('success_message') . '">' . $success_message . '</textarea></label></p><p><label>' . __('Failure :', 'mailman-widget') . '<textarea class="widefat" id="' . $this->get_field_id('failure_message') . '" name="' . $this->get_field_name('failure_message') . '">' . $failure_message . '</textarea></label></p>';
 		} else {
 			$form = $this->ns_mm_plugin->get_admin_notices();
